@@ -26,7 +26,7 @@ const LogingPage = () => {
   return (
     <section class="bg-gray-100 min-h-screen flex box-border justify-center items-center">
       <div class="bg-[#fff] rounded-2xl flex w-[1000px] items-center relative">
-        <Image src={logo} className="absolute left-0 top-0"></Image>
+        <Image src={logo} className="absolute left-0 top-0" alt=""></Image>
         <div class="md:w-1/2 px-8">
           <h2 class="font-bold text-3xl text-[#002D74]">Login</h2>
           <p class="text-sm mt-4 text-[#002D74]">

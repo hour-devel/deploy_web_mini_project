@@ -11,7 +11,7 @@ const RegisterPage = () => {
         <div className="xl:w-7/12 p-6">
           <div className="bg-white">
             <div className="mx-auto max-w-xl">
-              <Image src={logo}></Image>
+              <Image src={logo} alt=""></Image>
             </div>
             <form
               action={registerAction}
@@ -144,7 +144,7 @@ const RegisterPage = () => {
         </div>
         <div className="flex-1 bg-indigo-100 text-center hidden lg:flex">
           <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat">
-            <Image src={sign_up} className="h-[100%]"></Image>
+            <Image src={sign_up} className="h-[100%]" alt=""></Image>
           </div>
         </div>
       </div>

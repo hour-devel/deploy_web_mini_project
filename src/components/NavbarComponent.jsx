@@ -44,6 +44,7 @@ export default function NavbarComponent() {
                   src="/assets/icons/search-icon.svg"
                   width={15}
                   height={15}
+                  alt=""
                 />
                 <span className="sr-only">Search icon</span>
               </div>
@@ -67,6 +68,7 @@ export default function NavbarComponent() {
                 src="/assets/icons/search-icon.svg"
                 width={15}
                 height={15}
+                alt=""
               />
             </button>
 
@@ -74,6 +76,7 @@ export default function NavbarComponent() {
               src="/assets/icons/notification.svg"
               width={22}
               height={22}
+              alt=""
             />
 
             <div
@@ -91,6 +94,7 @@ export default function NavbarComponent() {
                   src="https://i.pinimg.com/564x/66/57/c3/6657c31fa4c64e2e9c2f7f8667a85963.jpg"
                   fill
                   onClick={() => signOut()}
+                  alt=""
                 />
               </div>
             </div>
@@ -106,6 +110,7 @@ export default function NavbarComponent() {
                   src="/assets/icons/search-icon.svg"
                   width={15}
                   height={15}
+                  alt=""
                 />
               </div>
               <input
@@ -127,12 +132,14 @@ export default function NavbarComponent() {
                       src="/assets/icons/list-filled-blue.svg"
                       width={18}
                       height={18}
+                      alt=""
                     />
                   ) : (
                     <Image
                       src="/assets/icons/list.svg"
                       width={18}
                       height={18}
+                      alt=""
                     />
                   )}
 
@@ -157,12 +164,14 @@ export default function NavbarComponent() {
                       src="/assets/icons/board-filled-blue.svg"
                       width={18}
                       height={18}
+                      alt=""
                     />
                   ) : (
                     <Image
                       src="/assets/icons/board.svg"
                       width={18}
                       height={18}
+                      alt=""
                     />
                   )}
 

@@ -11,8 +11,8 @@ export default function SidebarComponent({ workSpaceData }) {
   return (
     <div className="pl-10 mt-6 h-screen">
       <div className="flex justify-between">
-        <Image src={"/assets/icons/logo.svg"} width={150} height={100} />
-        <Image src={"/assets/icons/arrow.svg"} width={25} height={30} />
+        <Image src={"/assets/icons/logo.svg"} width={150} height={100} alt=""/>
+        <Image src={"/assets/icons/arrow.svg"} width={25} height={30} alt=""/>
       </div>
 
       {/* workspace */}
@@ -44,7 +44,7 @@ export default function SidebarComponent({ workSpaceData }) {
       {/* favorite*/}
       <div className="flex justify-between mt-10">
         <h1 className="uppercase text-gray font-bold">favorite</h1>
-        <Image src={"/assets/icons/favorite.svg"} width={22} height={22} />
+        <Image src={"/assets/icons/favorite.svg"} width={22} height={22} alt=""/>
       </div>
 
       {/* each favorite workspace */}

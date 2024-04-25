@@ -7,7 +7,7 @@ export default async function WorkspacePopupComponent() {
     <div>
       {/* The button to open modal */}
       <label htmlFor="my_modal_6" className="cursor-pointer">
-        <Image src={"/assets/icons/plus.svg"} width={22} height={22} />
+        <Image src={"/assets/icons/plus.svg"} width={22} height={22} alt=""/>
       </label>
 
       {/* Put this part before </body> tag */}
