@@ -25,13 +25,13 @@ const Todo_List = async ({ params }) => {
         />
         {task?.data?.map((e) =>
           e.status === 1 ? (
-            <TodoListComponent task={e} color={todo} />
+            <TodoListComponent task={e} color={todo} key={e.taskId}/>
           ) : e.status === 2 ? (
-            <TodoListComponent task={e} color={workingOn} />
+            <TodoListComponent task={e} color={workingOn} key={e.taskId}/>
           ) : e.status === 3 ? (
-            <TodoListComponent task={e} color={checking} />
+            <TodoListComponent task={e} color={checking} key={e.taskId}/>
           ) : e.status === 4 ? (
-            <TodoListComponent task={e} color={completed} />
+            <TodoListComponent task={e} color={completed} key={e.taskId}/>
           ) : (
             ""
           )
